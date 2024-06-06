@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 14px 8%;
+}
+p{
+    font-size: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#616161;
+    
+}
+li{
+    cursor: pointer;
+}
+a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    padding: 5px;
+}
+
+i{
+    font-size: 1.1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn{
+    background-color: #0067b8;
+    color: white;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+
+}
+.btn:hover{
+    background-color: #065b9c;
+}
+.btn-2{
+    background-color: #ff5c39;
+    color: black;
+    font-weight: 500;
+    padding: 10px 14px;
+}
+/* nav starts */
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 4px #2c302f;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.nav-1 .logo img{
+    width: 124px;
+    cursor: pointer;
+}
+.nav-1-links{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.nav-1-links a:hover{
+
+border-bottom:2px solid black ;
+}
+
+.nav-2-links{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.nav-2-links a:hover{
+
+border-bottom:2px solid black ;
+}
+.user{
+    font-size: 1.7rem;
+}
+/* nav ends */
+/* deals menu starts */
+.deals-section{
+    background-color: #9bf00b;
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 71px;
+    
+}
+.deals-section p{
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.deals-section p:hover{
+    border-bottom: 0.3px solid black;
+}
+.deals-section i{
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+/* .deals-section p:hover .deals-section i{
+    transform: translateX(-200px);
+} */
+/* deals-section ends*/
+/* main section starts */
+main{
+    min-height: 60vh;
+    /* height: ; */
+    overflow: hidden;
+    width: 100%;
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-Signature-Keyboard-Blk-Warm-FY24BTS:VP5-1920x600");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 11%;
+   
+}
+.main-text{
+    width:560px;
+}
+
+.main-text h2{
+   margin-block: 20px 30px;
+}
+.main-text p{
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+/* main ends */
+/* main-footer starts */
+.main-footer{
+    margin-top: 100px;
+    padding : 0 17% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-footer-card{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-footer-card a{
+ color: #0067b8;
+ text-transform: capitalize;
+ line-height: 4px;
+ border-bottom: 1px solid #0067b8;
+}
+/* main footer  end */
+/* features-businesses section starts */
+.features-businesses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 8%;
+    margin-top: 100px;
+    
+}
+.feature-business-card{
+    width: 406px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.feature-card h4{
+   font-size: 1.5rem;
+   font-weight: 500;text-transform: capitalize;
+   margin-block: 10px;
+}
+.feature-business-card p{
+   font-size: 0.9rem;
+   margin-bottom: 15px;
+   line-height: 23px;
+}
+.feature-business-card .hover a{
+    color: #0067b8;
+    text-transform: capitalize;
+    /* margin-bottom: 15px; */
+    /* line-height: 8px; */
+    padding: 0;
+    
+}
+.hover{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+.feature-business-card .hover a:hover{
+   border-bottom: 0.4px solid #0067b8;
+}
+.feature-business-card  .hover i{
+    color: #0067b8;
+    font-size: 1.5rem;
+    /* margin-bottom: 13px; */
+   
+  
+}
+/* features-business end */
+/* shop section starts */
+.shop{
+    
+    width: 84%;
+    margin: 100px auto;
+  
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-Light-Background:VP5-1596x600");
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 12%;
+}
+.shop-text{
+  width: 340px;
+}
+.shop-text h2{
+    margin-bottom: 20px;
+}
+.shop-text p{
+    margin-bottom: 30px;
+}
+/* shop section ends */
+/* strategy section start */
+.strategy{
+    
+    width: 84%;
+    margin: 0 auto;
+  
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Shana-Fatina-Komodo-Water:VP5-1596x600");
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 5%;
+}
+.strategy-text{
+  width: 476px;
+  height: 368px;
+  background-color: white;
+  padding: 40px 30px;
+}
+.strategy-text h2{
+    margin-bottom: 20px;
+}
+.strategy-text p{
+    margin-bottom: 30px;
+}
+
+
+/* strategy section end */
+/* follow section starts */
+.follow{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    gap: 10px;
+   
+}
+.follow i{
+    font-size: 2rem;
+}
+
+/* follow section end */
+/* footer section starts */
+
+ .footer{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #e6e6e6;
+    color: #616161;
+
+}
+.footer h5{
+    margin-block: 20px 10px;
+}
+.footer a{
+    font-size: 0.7rem;
+    line-height: 34px;
+    padding: 0;
+}
+.footer a:hover{
+   border-bottom: 1px solid #444444;
+} 
+/* footer section end */
+/* subfooter section starts */
+.sub-footer{
+    height: 100px;
+    width: 100%;
+    background-color: #e6e6e6;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-footer p{
+    text-transform: capitalize;
+}
+/* subfooter section end */
+
+
+
+
+
